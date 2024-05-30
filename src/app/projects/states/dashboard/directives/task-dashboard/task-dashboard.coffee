@@ -26,6 +26,7 @@ angular.module('doubtfire.projects.states.dashboard.directives.task-dashboard', 
         $scope.currentView = $scope.dashboardViews[1]
       else
         $scope.currentView = $scope.dashboardViews[0]
+      setSelectedDashboardView($scope.currentView)
 
     updateCurrentView()
 
